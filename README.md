@@ -4,3 +4,4 @@
 # Next I create new column "target" """df['target'] = digits.target"""
 # Then I import "train_test_split" and prepare my "train" and "test" set but without "target" column """df.drop('target', axis='columns')"""
 # And import "SVC" model, set parameter "kernel" to "rbf" """rbf_model = SVC(kernel='rbf')"""
+# I check "X_train" and "X_test" size
